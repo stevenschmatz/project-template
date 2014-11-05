@@ -1,15 +1,12 @@
 #include <iostream>
-#include "project.h"
-
 using namespace std;
 
-int main() {
-	// Write your code here!
-	cout << "Running project!" << endl;
-
-	// An example of code
-	int list[] = {1, 2, 3};
-	cout << getSumOfList(list, 3) << endl;
-	
-	return 0;
+// A sample function for your enjoyment – this is tested
+// in tests/unit/ListSumUnitTest.cpp
+int getSumOfList(int list[], int listSize) {
+	int sum = 0;
+	for (int i = 0; i < listSize; ++i) {
+		sum += list[i];
+	}
+	return sum;
 }

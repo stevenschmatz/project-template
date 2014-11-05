@@ -13,8 +13,8 @@ all:
 
 .PHONY: build
 # Run the project
-build: build/project.cpp
-	@g++ $(CFLAGS) build/project.cpp
+build: build/main.cpp
+	@g++ $(CFLAGS) build/main.cpp
 	@./a.out
 
 .PHONY: tests

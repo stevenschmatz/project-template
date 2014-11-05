@@ -1,6 +1,6 @@
 #include <cassert>
 #include "ListSumUnitTest.h"
-#include "../../build/project.h"
+#include "../../build/project.cpp"
 
 /*
  * LIST SUM UNIT TESTS
